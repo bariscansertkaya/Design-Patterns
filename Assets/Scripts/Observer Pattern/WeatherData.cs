@@ -38,7 +38,6 @@ public class WeatherData : MonoBehaviour,ISubject
 
     public void GetRandomData()
     {
-        Debug.Log("Button Pressed");
         Temperature = Random.Range(1, 40);
         Humidity = Random.Range(1, 40);
         Pressure = Random.Range(1, 40);
